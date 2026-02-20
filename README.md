@@ -96,11 +96,10 @@ Fields:
 ## 🏗 System Architecture
 
 The system follows a modular Object-Oriented architecture:
-	- Models → Represent business entities
-(TheaterPlay, MusicPerformance, Customer, Reservation)
-	- Manager Classes → Handle business logic & CRUD operations
-	- Main Controller → Coordinates application flow and menu navigation
-	- CSV Persistence Layer → Handles file-based storage abstraction
+- Models → Represent business entities (TheaterPlay, MusicPerformance, Customer, Reservation)
+- Manager Classes → Handle business logic & CRUD operations
+- Main Controller → Coordinates application flow and menu navigation
+- CSV Persistence Layer → Handles file-based storage abstraction
 
 This separation improves maintainability, scalability, and logical clarity.
 
@@ -109,9 +108,9 @@ This separation improves maintainability, scalability, and logical clarity.
 ## 💾 Data Persistence
 
 All entities are stored in CSV files.
-	- Data is loaded automatically at application startup
-	- Data is saved automatically on exit
-	- Ensures structured persistence without database integration
+- Data is loaded automatically at application startup
+- Data is saved automatically on exit
+- Ensures structured persistence without database integration
 
 This approach demonstrates understanding of basic data storage abstraction before introducing relational databases.
 
