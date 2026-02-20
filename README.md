@@ -14,11 +14,11 @@ This project simulates a simplified Event Management Information System for mana
 It models core business entities (Events, Customers, Reservations) and demonstrates how business processes can be translated into structured software logic using Object-Oriented Programming principles.
 
 The system focuses on:
-	•	Structured data modeling
-	•	CRUD process implementation
-	•	Business rule validation
-	•	Modular system design
-	•	File-based persistence
+- Structured data modeling
+- CRUD process implementation
+- Business rule validation
+- Modular system design
+- File-based persistence
 
 ---
 
@@ -160,12 +160,12 @@ This approach demonstrates understanding of basic data storage abstraction befor
 ## 👨‍💻 My Contribution
 
 In this group project, I was responsible for:
-	•	Designing and implementing the complete Theatrical Performance module
-	•	Designing the overall application architecture and structural organization
-	•	Developing the main application flow and menu navigation logic
-	•	Implementing the CSV-based persistence mechanism (data loading & saving)
-	•	Coordinating integration between modules
-	•	Ensuring data consistency and validation across the system
+- Designing and implementing the complete Theatrical Performance module
+- Designing the overall application architecture and structural organization
+- Developing the main application flow and menu navigation logic
+- Implementing the CSV-based persistence mechanism (data loading & saving)
+- Coordinating integration between modules
+- Ensuring data consistency and validation across the system
 
 ---
 
