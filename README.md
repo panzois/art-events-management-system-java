@@ -5,7 +5,7 @@ Console-based Event Management Information System developed in Java, simulating 
 Developed as part of the MSc in Information & Communication Technology (ICT)
 University of West Attica.
 
-⸻
+---
 
 ## 📌 Overview
 
@@ -20,7 +20,7 @@ The system focuses on:
 	•	Modular system design
 	•	File-based persistence
 
-⸻
+---
 
 ## 🧠 Business Logic Implemented
 	•	Entity validation before ticket reservation
@@ -33,7 +33,7 @@ The system focuses on:
 
 This mirrors how small-scale ERP-style systems manage entities and transactional logic.
 
-⸻
+---
 
 ## 🚀 Features
 
@@ -50,7 +50,7 @@ Fields:
 	•	Venue
 	•	Date
 
-⸻
+---
 
 ## 🎵 Music Performances
 	•	Add new performance
@@ -65,7 +65,7 @@ Fields:
 	•	Venue
 	•	Date
 
-⸻
+---
 
 ## 👤 Customer Management
 	•	Add customer
@@ -77,7 +77,7 @@ Fields:
 	•	Customer Code
 	•	Name
 
-⸻
+---
 
 ## 🎟 Ticket Reservations
 	•	Reserve ticket for theatrical performance
@@ -85,13 +85,13 @@ Fields:
 	•	Validation of customer & event existence
 	•	Automatic ticket count tracking
 
-⸻
+---
 
 ## 📊 Statistics
 	•	Display ticket statistics per event
 	•	Track total reservations per performance
 
-⸻
+---
 
 ## 🏗 System Architecture
 
@@ -104,7 +104,7 @@ The system follows a modular Object-Oriented architecture:
 
 This separation improves maintainability, scalability, and logical clarity.
 
-⸻
+---
 
 ## 💾 Data Persistence
 
@@ -115,7 +115,7 @@ All entities are stored in CSV files.
 
 This approach demonstrates understanding of basic data storage abstraction before introducing relational databases.
 
-⸻
+---
 
 ## 🛠 Technologies Used
 	•	Java
@@ -125,7 +125,7 @@ This approach demonstrates understanding of basic data storage abstraction befor
 	•	Scanner for input handling
 	•	Exception handling & validation
 
-⸻
+---
 
 ## 🎯 Skills Demonstrated
 	•	Object-Oriented System Design
@@ -137,14 +137,14 @@ This approach demonstrates understanding of basic data storage abstraction befor
 	•	Cross-Module Integration
 	•	Structured Console Application Flow
 
-⸻
+---
 
 ## ▶ How to Run
 	1.	Open the project in IntelliJ IDEA (or any Java IDE)
 	2.	Run the main class
 	3.	Use the console-based menu to navigate between modules
 
-⸻
+---
 
 ## 📈 Possible Future Improvements
 	•	Database integration (JDBC)
@@ -155,7 +155,7 @@ This approach demonstrates understanding of basic data storage abstraction befor
 	•	Unit testing implementation
 	•	REST API exposure for external integration
 
-⸻
+---
 
 ## 👨‍💻 My Contribution
 
@@ -167,7 +167,7 @@ In this group project, I was responsible for:
 	•	Coordinating integration between modules
 	•	Ensuring data consistency and validation across the system
 
-⸻
+---
 
 ## 👤 Author
 
