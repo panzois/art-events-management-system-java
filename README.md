@@ -1,157 +1,175 @@
-# Art Events Management System (Java)
+## 🎭 Art Events Management System (Java)
 
-Console-based application developed in Java for managing artistic events, including theatrical performances, music performances, customers, and ticket reservations.
+Console-based Event Management Information System developed in Java, simulating the core operations of a cultural service provider.
 
-Developed as part of the MSc in Information & Communication Technology (ICT)  
+Developed as part of the MSc in Information & Communication Technology (ICT)
 University of West Attica.
 
----
+⸻
 
 ## 📌 Overview
 
-This application simulates a basic event management system for a service provider.  
-It allows full management of:
+This project simulates a simplified Event Management Information System for managing artistic events.
 
-- Theatrical performances
-- Music performances
-- Customers
-- Ticket reservations
-- Ticket statistics per event
+It models core business entities (Events, Customers, Reservations) and demonstrates how business processes can be translated into structured software logic using Object-Oriented Programming principles.
 
-All data is stored using file-based persistence (CSV files) and loaded automatically at application startup.
+The system focuses on:
+	•	Structured data modeling
+	•	CRUD process implementation
+	•	Business rule validation
+	•	Modular system design
+	•	File-based persistence
 
----
+⸻
+
+## 🧠 Business Logic Implemented
+	•	Entity validation before ticket reservation
+	•	Customer & event existence verification
+	•	Controlled deletion logic
+	•	Cross-module data consistency
+	•	Ticket counting & reservation tracking
+	•	Statistics generation per event
+	•	Centralized application flow coordination
+
+This mirrors how small-scale ERP-style systems manage entities and transactional logic.
+
+⸻
 
 ## 🚀 Features
 
-### 🎭 Theatrical Performances
-- Add new performance
-- Edit existing performance
-- Delete performance
-- View all performances
+## 🎭 Theatrical Performances
+	•	Add new performance
+	•	Edit existing performance
+	•	Delete performance
+	•	View all performances
 
 Fields:
-- Code
-- Title
-- Main Actor
-- Venue
-- Date
+	•	Code
+	•	Title
+	•	Main Actor
+	•	Venue
+	•	Date
 
----
+⸻
 
-### 🎵 Music Performances
-- Add new performance
-- Edit existing performance
-- Delete performance
-- View all performances
-
-Fields:
-- Code
-- Title
-- Singer
-- Venue
-- Date
-
----
-
-### 👤 Customer Management
-- Add customer
-- Edit customer
-- Delete customer
-- View all customers
+## 🎵 Music Performances
+	•	Add new performance
+	•	Edit existing performance
+	•	Delete performance
+	•	View all performances
 
 Fields:
-- Customer Code
-- Name
+	•	Code
+	•	Title
+	•	Singer
+	•	Venue
+	•	Date
 
----
+⸻
 
-### 🎟 Ticket Reservations
-- Reserve ticket for theatrical performance
-- Reserve ticket for music performance
-- Validation of customer & event existence
-- Ticket count tracking
+## 👤 Customer Management
+	•	Add customer
+	•	Edit customer
+	•	Delete customer
+	•	View all customers
 
----
+Fields:
+	•	Customer Code
+	•	Name
 
-### 📊 Statistics
-- Display ticket statistics per event
-- Track total reservations per performance
+⸻
 
----
+## 🎟 Ticket Reservations
+	•	Reserve ticket for theatrical performance
+	•	Reserve ticket for music performance
+	•	Validation of customer & event existence
+	•	Automatic ticket count tracking
 
-## 🏗 Architecture & Design
+⸻
 
-The project follows Object-Oriented Programming principles:
+## 📊 Statistics
+	•	Display ticket statistics per event
+	•	Track total reservations per performance
 
-- Encapsulation (private attributes + getters/setters)
-- Separation of concerns (Models & Managers)
-- Manager classes handle business logic
-- Console-based menu navigation
-- Input validation & exception handling
-- File persistence using CSV format
+⸻
 
-Main structural components:
+## 🏗 System Architecture
 
-- `TheaterPlay`
-- `MusicPerformance`
-- `Customer`
-- `Reservation`
-- Manager classes for handling CRUD operations
-- Main menu controller
+The system follows a modular Object-Oriented architecture:
+	•	Models → Represent business entities
+(TheaterPlay, MusicPerformance, Customer, Reservation)
+	•	Manager Classes → Handle business logic & CRUD operations
+	•	Main Controller → Coordinates application flow and menu navigation
+	•	CSV Persistence Layer → Handles file-based storage abstraction
 
----
+This separation improves maintainability, scalability, and logical clarity.
+
+⸻
 
 ## 💾 Data Persistence
 
 All entities are stored in CSV files.
+	•	Data is loaded automatically at application startup
+	•	Data is saved automatically on exit
+	•	Ensures structured persistence without database integration
 
-- Data is loaded at application startup
-- Data is saved automatically on exit
-- Ensures basic persistence without database usage
+This approach demonstrates understanding of basic data storage abstraction before introducing relational databases.
 
----
-
-## ▶ How to Run
-
-1. Open the project in IntelliJ IDEA (or any Java IDE)
-2. Run the main class
-3. Use the console menu to navigate between options
-
----
+⸻
 
 ## 🛠 Technologies Used
+	•	Java
+	•	Object-Oriented Programming (OOP)
+	•	ArrayList
+	•	File I/O (CSV handling)
+	•	Scanner for input handling
+	•	Exception handling & validation
 
-- Java
-- OOP principles
-- ArrayList
-- File I/O (CSV)
-- Scanner for input handling
+⸻
 
----
+## 🎯 Skills Demonstrated
+	•	Object-Oriented System Design
+	•	Modular Architecture Planning
+	•	CRUD Process Modeling
+	•	Business Process Translation into Code
+	•	Data Integrity Handling
+	•	File-Based Persistence
+	•	Cross-Module Integration
+	•	Structured Console Application Flow
+
+⸻
+
+## ▶ How to Run
+	1.	Open the project in IntelliJ IDEA (or any Java IDE)
+	2.	Run the main class
+	3.	Use the console-based menu to navigate between modules
+
+⸻
 
 ## 📈 Possible Future Improvements
+	•	Database integration (JDBC)
+	•	GUI implementation (JavaFX or Web interface)
+	•	Unique ID auto-generation mechanism
+	•	Logging system integration
+	•	Layered architecture refactoring
+	•	Unit testing implementation
+	•	REST API exposure for external integration
 
-- Database integration (JDBC)
-- GUI implementation
-- Unique ID auto-generation
-- Logging system
-- Layered architecture refactoring
-- Unit testing
-
----
+⸻
 
 ## 👨‍💻 My Contribution
 
-- Designed the core application logic
-- Implemented CRUD operations for all entities
-- Developed manager-based structure
-- Implemented CSV loading/saving functionality
-- Designed menu navigation & application flow
-- Implemented input validation and exception handling
+In this group project, I was responsible for:
+	•	Designing and implementing the complete Theatrical Performance module
+	•	Designing the overall application architecture and structural organization
+	•	Developing the main application flow and menu navigation logic
+	•	Implementing the CSV-based persistence mechanism (data loading & saving)
+	•	Coordinating integration between modules
+	•	Ensuring data consistency and validation across the system
 
----
+⸻
 
-## Author 
+## 👤 Author
 
-Panagiotis Zois, MSc ICT | Bridging Business & Technology
+Panagiotis Zois
+MSc ICT | Bridging Business & Technology
